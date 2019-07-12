@@ -1,0 +1,33 @@
+.main-section {
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $small;
+  color: $raisin-black;
+  text-align: left;
+  width: 80vw;
+  margin: 50px auto;
+}
+
+.main-section__title {
+  font-family: $playfair;
+  font-weight: $light;
+  font-size: $medium;
+}
+
+.main-section__text{
+  line-height: 2.5;
+}
+
+.main-section__text--important {
+  line-height: 2.5;
+  color : $spanish-pink
+}
+
+@media only screen and (max-width: 600px) {
+  .main-section__text--important {
+    line-height: 2.5;
+    color : $raisin-black;
+
+  }
+
+}

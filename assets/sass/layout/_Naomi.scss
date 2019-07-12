@@ -1,0 +1,56 @@
+.Naomi {
+  margin: 0 auto;
+}
+
+.Naomi__title-Name {
+  font-family: $playfair;
+  font-weight: $italic;
+  font-style: italic;
+  font-size: $large;
+}
+
+.Naomi__title-RSS {
+  color: $spanish-pink;
+  font-family: $roboto;
+  font-weight: $light;
+}
+
+.Naomi__img {
+  border-radius: 50%;
+  height: 150px;
+
+}
+
+.Naomi__text {
+  color : $nickel;
+  font-size: $small;
+  line-height: 2.5;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Naomi__title-Name {
+    text-align: center;
+    font-family: $playfair;
+    font-weight: $italic;
+    font-style: italic;
+    font-size: $x-large;
+  }
+
+  .Naomi__title-RSS {
+    text-align: center;
+    color: $spanish-pink;
+    font-family: $roboto;
+    font-weight: $light;
+  }
+
+  .Naomi__title{
+    display: block;
+  }
+
+  .Naomi__img {
+    height: 200px;
+
+  }
+
+  }

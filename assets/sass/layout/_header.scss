@@ -1,8 +1,56 @@
 .header {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  text-align: center;
+  color: $white;
+  padding-top: 20%;
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
 }
 
-.logo {
-  width: 120px;
+.header__title {
+  font-family: $playfair;
+  font-size: $xx-large;
+  font-style: italic;
+  padding: 0 300px;
+  text-shadow: 1px 1px 1px #000000;
+
+
+}
+
+.header__icon {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 540px) {
+  .header {
+    background-image: url("../images/post-image_responsive.jpg");
+    height: 400px;
+  }
+
+  .header__title {
+    font-size: $large;
+    font-weight: $italic;
+    margin-top: 100px;
+    padding: 0 40px;
+    text-shadow: 1px 1px 1px #000000;
+
+  }
+  .header__icon {
+    padding-top: 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    background-image: url("../images/post-image_responsive_medium.jpg");
+    height: 500px;
+  }
+
+  .header__title {
+    font-size: $x-large;
+    font-weight: $italic;
+    text-shadow: 1px 1px 1px #000000;
+
+  }
 }

@@ -1,0 +1,36 @@
+.buttons {
+  margin-bottom: 100px;
+}
+
+.buttons__main {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $small;
+  border-radius: 20px;
+}
+
+.button__share {
+  background-color: $nickel;
+  color: $white;
+
+  &:hover {
+    background-color: $eerie-black;
+    color: $white;
+  }
+}
+
+.button__comentar {
+  background-color: $nickel;
+  color: $white;
+  margin-left: 20px;
+
+  &:hover {
+    background-color: $eerie-black;
+    color: $white;
+  }
+}
